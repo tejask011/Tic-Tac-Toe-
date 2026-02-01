@@ -37,8 +37,7 @@ function checkwinner()
        arr[2]!==null&& arr[2]==arr[4]&&arr[4]==arr[6] ))
 
     {
-   
-    document.write(`winner is ${currentplayer}`);
+     status.innerText=`winner is ${currentplayer}`;
     
     
     }
@@ -48,6 +47,7 @@ function checkwinner()
 
     }
 }
+
 
 
 
